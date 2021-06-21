@@ -41,7 +41,7 @@ class _MyHomePageState extends State<ConsultarDonaciones> {
             ),
           ),
           TextButton(
-            child: Text('Agregar'),
+            child: Text('Agregar Donante'),
             onPressed: () => agregar(
               nombre.text,
               telefono.text,
